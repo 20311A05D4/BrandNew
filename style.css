@@ -1,11 +1,16 @@
 body{
   margin: 0;
   padding: 0;
-
+  overflow-x: hidden;
+  text-align: center;
+  background-size: cover;
 }
 a{
   text-decoration: none;
   color: black;
+}
+.col-lg-6{
+  padding-right:0;
 }
 /* main page*/
 #title{
@@ -63,6 +68,7 @@ h1{
 .caption{
   color:#CFD2CF;
   text-align: center;
+  margin-bottom:3%;
   font-size: 25px;
 }
 .Brand-header{
@@ -80,7 +86,7 @@ h1{
   background-color: #FFB4B4;
 }
 .cf{
-  padding:5% 15% 8% 15%;
+  padding:2% 15% 8% 15%;
   background-color: #FFB4B4;
 }
 .img:hover{
@@ -108,14 +114,7 @@ h1{
   background-color: black;
   padding:3%;
 }
-.offer-header{
-  display: block;
-  overflow:hidden;
-  width: 100%;
-  margin-bottom:5%;
-  animation: animate 1s linear infinite;
 
-}
 .colu{
   margin-top:10%;
   padding: 0;
@@ -231,16 +230,25 @@ border-radius: 20%;
   .content{
     text-align: center;
     position:relative;
-    font-size: 40px;
+    font-size: 60px;
     line-height: 1;
     margin:200px 25px 0 0;
 
   }
-  .navbar-brand{
+  h3{
     font-size: 2rem;
   }
-  .Brand-header{
+  #footer{
     font-size: 2rem;
+  }
+  .navbar-brand{
+    font-size: 2.5rem;
+  }
+  .nav-link{
+    font-size: 20px;
+  }
+  .Brand-header{
+    font-size: 2.8rem;
   }
   .offer-header{
     font-size: 2rem;
